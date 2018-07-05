@@ -24,7 +24,7 @@ export default class Demo extends React.PureComponent {
       tableColumnExtensions: [
         { columnName: 'sex', width: 100 },
       ],
-      rows: generateRows({ length: 10 }),
+      rows: generateRows({ length: 6 }),
       hiddenColumnNames: ['sex', 'car'],
     };
 
